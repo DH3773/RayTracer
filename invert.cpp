@@ -1,3 +1,6 @@
+//Below code was written by my CSC 305 teaching team
+
+
 
 void invert_matrix (double A[4][4], double Ainv[4][4]);
 void adjoint( double in[4][4], double out[4][4] );

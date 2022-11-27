@@ -1,3 +1,6 @@
+//Below code was written by my CSC 305 teaching team
+
+
 #include <stdio.h>
 
 // Output in P6 format, a binary file containing:
