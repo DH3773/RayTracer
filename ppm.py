@@ -1,7 +1,3 @@
-
-import random
-
-
 # Output in P3 format, a text file containing:
 # P3
 # ncolumns nrows
@@ -9,7 +5,7 @@ import random
 # r1 g1 b1 r2 g2 b2 .....
 def save_imageP3(width: int, height: int, fname: str, pixels):
     
-    with open(fname + ".ppm", "w") as fp:
+    with open(fname, "w") as fp:
 
         #writes the following:
         #P3
@@ -28,11 +24,3 @@ def save_imageP3(width: int, height: int, fname: str, pixels):
             
             fp.write("\n")
 
-
-
-
-
-        
-pixelArray = [str(random.randint(0, 255)) for index in range(0, 30000)]
-
-save_imageP3(100, 100, "tester", pixelArray)
